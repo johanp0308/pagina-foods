@@ -4,7 +4,6 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    border: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -62,12 +61,22 @@ body{
     border-radius: 3px;
 }
 
+.button:active{
+    color:var(--color-quinto);
+}
+
+.buton-food{
+    background-color: var(--colores-primario);
+    font-size: 2rem;
+    border-radius: 10px;
+}
 .center-texto{
     text-align: center;
 }
 
 
-.button:active{
-    color:var(--color-quinto);
+@media screen and (min-width: 992px){
+    #navbarNavDropdown{
+        background: none;
+    }
 }
-
