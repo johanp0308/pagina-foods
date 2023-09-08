@@ -40,10 +40,14 @@ body{
     background-color: var(--color-tercero) !important;
 }
 
+.title-food{
+    font-size: 1.7rem;
+}
 
 .nav-separacion{
     justify-content: space-between;
 }
+
 
 #navbarNavDropdown{
     background-color: var(--color-sexto-mob);
