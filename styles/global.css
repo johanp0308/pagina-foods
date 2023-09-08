@@ -58,10 +58,12 @@ body{
 .button{
     background-color: var(--colores-primario);
     padding: 0px 1rem;
+    border: none;
     border-radius: 3px;
+    
 }
 
-.button:active{
+.button-active:active{
     color:var(--color-quinto);
 }
 
